@@ -1,9 +1,11 @@
-.friend {
+
+ .friend {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border: 1px solid red;
   }
-  
+
   .friend .friend__avatar {
     width: 50px;
     border-radius: 38%;
@@ -12,10 +14,11 @@
   .friend__avatar.g-avatar {
     width: 70px;
   }
+  
   .friend__avatar.m-avatar {
     width: 60px;
   }
-  
+  /*
   .friend .friend__column {
     display: flex;
     align-items: center;
@@ -67,4 +70,4 @@
     align-items: center;
     background-color: #f5f5f5;
     border-radius: 5px;
-  }
+  } */
