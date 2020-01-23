@@ -1,9 +1,21 @@
+ /*jamongjamongjamongjamongjamong*/
+ .chats .chat {
+   list-style: none;
+ }
+ .chats__list {
+   padding: 0;
+   margin: 0;
+ }
+ .friend__column .chat__timestamp {
+   font-size: 12px;
+ }
+ /*jamongjamongjamongjamongjamong*/
 
  .friend {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid red;
+    /* border: 1px solid red; */
   }
 
   .friend .friend__avatar {
