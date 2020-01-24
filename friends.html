@@ -12,13 +12,14 @@
       crossorigin="anonymous"
     /> -->
     <link rel="stylesheet" href="css/styles.css" />
+    <script type="text/javascript" src="script/clock.js"></script>
     <script src="https://kit.fontawesome.com/d2fe288f96.js" crossorigin="anonymous"></script>
     <title>Friends | Kakao Clone</title>
   </head>
-  <body>
+  <body onload="printClock()">
     <div class="status-bar">
         <div class="status-bar__column">
-            <span class="status-bar__clock">03:15</span>
+            <span class="status-bar__clock" id="clock"></span>
         </div>
         <div class="status-bar__column">
             <i class="fas fa-clock"></i>
@@ -34,6 +35,9 @@
             <h1 class="header__title">Friends</h1>
         </div>
         <div class="header__header-column">
+            <span class="header__icon">
+                <i class="fas fa-user-plus"></i>
+            </span>
             <span class="header__icon">
                 <i class="fas fa-search"></i>
             </span>
@@ -77,7 +81,7 @@
                 <div class="friend__column">
                     <img src="images/sant-01-01.png" alt="userIcon" class="friend__avatar" />
                     <div class="friend__content">
-                        <span class="friend__name"> IkIk Yoon </span>
+                        <span class="friend__name"> IkIk 尹 </span>
                         <span class="friend__status">
                             ysj!
                         </span>       
@@ -86,7 +90,7 @@
                 <div class="friend__column">
                     <div class="friend__now-listening">
                         <span>
-                          FTISLAND (관둬)
+                          FTISLAND ( 관둬 )
                           <i class="fas fa-play"></i>
                         </span>
                     </div>
