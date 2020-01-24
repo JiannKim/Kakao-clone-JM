@@ -1,21 +1,30 @@
  /*jamongjamongjamongjamongjamong*/
- .chats .chat {
+ /* .chats .chat {
    list-style: none;
  }
  .chats__list {
    padding: 0;
    margin: 0;
- }
- .friend__column .chat__timestamp {
+ } */
+ /* .friend__column .chat__timestamp {
    font-size: 12px;
- }
+ } */
  /*jamongjamongjamongjamongjamong*/
 
+ /* 추가 */
+ /*jamongjamongjamongjamongjamong*/
+ 
+ .friends__title {
+  font-size: 15px;
+  font-weight:500;
+  opacity: 0.5;
+}
+
+ /*jamongjamongjamongjamongjamong*/
  .friend {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* border: 1px solid red; */
   }
 
   .friend .friend__avatar {
@@ -51,15 +60,6 @@
     opacity: 0.5;
   }
 
-  
-  /*
-  
-  .friend__content .friend__status,
-  .friend__content .friend__bottom-text,
-  .friend .chat__timestamp {
-    opacity: 0.6;
-  }
-  
   .friend__content .friend__bottom-text {
     font-size: 14px;
   }
@@ -71,18 +71,21 @@
   
   .friend .friend__now-listening {
     border: 2px solid #52e084;
-    padding: 5px 10px;
-    border-radius: 15px;
-    font-size: 14px;
+    border-radius: 20px;
+    padding: 5px 13px;
+    font-size: 13px;
   }
   
   .friend__now-listening span {
     opacity: 0.7;
   }
-  
+
   .friend__now-listening i {
-    font-size: 12px;
+    font-size: 11px;
+    padding-left: 3px;
   }
+  /*
+  
   
   .friend__add-btn {
     display: flex;

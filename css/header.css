@@ -5,12 +5,23 @@
     height: 30px;
     margin-bottom: 50px;
 }
+
 .header__title {
     font-size: 25px;
     font-weight: 600;
 }
+
 .header__icon {
     margin-left: 20px;
     font-size: 20px;
     cursor: pointer;
+    position: relative;
+}
+
+.header .i {
+    width: 25px;
+    align-items: center;
+    position: absolute;
+    left: -14px;
+    top: 5px;
 }

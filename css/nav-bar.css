@@ -18,8 +18,8 @@
 }
 .nav__list-item .nav__badge {
     position: absolute;
-    top: -7px;
-    right: -7px;
+    top: -10px;
+    right: -10px;
     background-color: #dc5d46;
     color: #f7f7f7;
     border-radius: 50%;
