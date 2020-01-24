@@ -44,11 +44,14 @@
     display: block;
     margin-bottom: 3px;
   }
+
   .friend__content .friend__status,
   .friend__content .friend__bottom-text,
   .friend .chat__timestamp {
     opacity: 0.5;
   }
+
+  
   /*
   
   .friend__content .friend__status,

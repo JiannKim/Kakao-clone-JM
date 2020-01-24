@@ -17,6 +17,7 @@
     justify-content: center;
 }
 
+/* display가 550px일때 부여 */
 @media screen and (min-width: 550px) {
     .bigScreen {
         display: flex;
