@@ -1,7 +1,8 @@
  /*jamongjamongjamongjamongjamong*/
- /* .chats .chat {
+  .chats .chat {
    list-style: none;
  }
+ /*
  .chats__list {
    padding: 0;
    margin: 0;
@@ -14,13 +15,37 @@
  /* 추가 */
  /*jamongjamongjamongjamongjamong*/
  
+ /* 이름검색 박스 */
+ .friend__search-box input {
+  outline: none;
+  opacity: 0.5;
+  border: 1.5px solid #555;
+  border-radius: 20px;
+  width: 300px;
+  height: 30px;
+  padding: 10px;
+  /* margin-bottom: 30px; */
+ }
+ .friends .friend__search {
+/*     border-top: 1px solid #f7f7f7; */
+    border-bottom: 1px solid #f7f7f7;
+    background-color: #fcfcfc;
+    width: 100%;
+    padding: 20px 10px;
+    margin-bottom: 20px;
+    }
+
  .friends__title {
   font-size: 15px;
   font-weight:500;
   opacity: 0.5;
 }
-
+ .friend__name {
+  font-size: 17px;
+  opacity: 0.8;
+ }
  /*jamongjamongjamongjamongjamong*/
+
  .friend {
     display: flex;
     justify-content: space-between;
