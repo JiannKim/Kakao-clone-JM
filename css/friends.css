@@ -7,13 +7,14 @@
 
 .friends__plus .friends__title,
 .friends__list .friends__title {
-font-size: 14px;
-opacity: 0.6;
-margin-bottom: 12px;
+  font-size: 14px;
+  font-weight: 400;
+  opacity: 0.5;
+  margin-bottom: 12px;
 }
 
 /* jamongjamongjamongjamongjamong */
 .friends__list, .chats__list {
-padding: 0;
+  padding: 0;
 }
 /* jamongjamongjamongjamongjamong */
