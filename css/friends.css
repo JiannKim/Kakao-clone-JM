@@ -17,4 +17,37 @@
 .friends__list, .chats__list {
   padding: 0;
 }
+
+ /* 이름검색 박스 */
+ .friends__search-box {
+  opacity: 0.3;
+  }
+
+ .friends__search-input input {
+  outline: none;
+  border: .5px solid rgba(0, 0, 0, .2);;
+  border-radius: 20px;
+  width: 300px;
+  height: 30px;
+  padding: 0 30px;;
+  box-shadow: 4px 4px 10px #999 ;
+/* margin-bottom: 30px; */
+}
+
+.friends .friends__search {
+  padding: 10px 0px;
+  margin-bottom: 20px;
+  }
+
+/* search 부분 추가 */
+.friends__search-box {
+  position: relative;
+}
+
+.friends__search-icon {
+  position: absolute;
+  top: 2px;
+  left: 10px;
+  opacity: 0.5;
+}
 /* jamongjamongjamongjamongjamong */
