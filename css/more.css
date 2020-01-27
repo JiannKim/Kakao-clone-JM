@@ -1,0 +1,35 @@
+.friend--lg {
+    border-bottom: 1px solid rgba(172, 172, 172, 0.1);
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.friend__column .setting-icon {
+    width: 62px;
+    opacity: 0.9;
+    padding: 20px;
+}
+
+.more__options {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.more__option i {
+    display: flex;
+    justify-content: space-around;
+    opacity: .9;
+}
+
+.more__option-title {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100px;
+    padding: 5px 10px;
+    font-size: 13px;
+    font-weight: 400;
+    opacity: 0.7;
+}
