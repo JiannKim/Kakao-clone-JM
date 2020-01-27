@@ -25,13 +25,20 @@
 
  .friends__search-input input {
   outline: none;
-  border: .5px solid rgba(0, 0, 0, .2);;
+  background-color: rgba(0, 0, 0, .2);
+  border: .1px solid rgba(0, 0, 0, .2);
   border-radius: 20px;
   width: 300px;
   height: 30px;
-  padding: 0 30px;;
-  box-shadow: 4px 4px 10px #999 ;
+  padding: 0 30px;
+  /* box-shadow: 4px 4px 10px #999 ; */
 /* margin-bottom: 30px; */
+}
+.friends__search-box input:hover {
+  outline: none;
+  border-radius: 20px;
+  box-shadow: 4px 4px 10px #999;
+  border: .5px solid rgba(0, 0, 0, .2);
 }
 
 .friends .friends__search {
