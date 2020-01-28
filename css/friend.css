@@ -19,6 +19,32 @@
     font-size: 16px;
     opacity: 0.9;
  }
+
+ .chats .friend--lg {
+    position: relative; 
+    margin-bottom: 30px;
+}
+
+/* 추가 index chats list */
+
+.chat__timestamp--badge .chat__badge {
+  position: absolute;
+  top: 20px;
+  right: 0px;
+  background-color: #dc5d46;
+  color: #f7f7f7;
+  border-radius: 50%;
+  width:18px;
+  height: 18px;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .chats__chat:hover {
+    background-color: #999;
+  }
  /*jamongjamongjamongjamongjamong*/
 
  .friend {
@@ -87,15 +113,14 @@
     padding-top: 4px;
     margin-left: 3px;
   }
-/* 
+  /* 
+  멜론 재생 아이콘
   .friend__now-listening i {
     font-size: 11px;
     padding-left: 3px;
   }
    */
   /*
-  
-  
   .friend__add-btn {
     display: flex;
     padding: 10px 15px;
@@ -103,4 +128,5 @@
     align-items: center;
     background-color: #f5f5f5;
     border-radius: 5px;
-  } */
+  }
+   */
