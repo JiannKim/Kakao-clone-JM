@@ -21,29 +21,29 @@
  }
 
  .chats .friend--lg {
-    position: relative; 
-    margin-bottom: 30px;
+    position: relative;
+    padding: 15px 0;
 }
 
 /* 추가 index chats list */
 
-.chat__timestamp--badge .chat__badge {
-  position: absolute;
-  top: 20px;
-  right: 0px;
-  background-color: #dc5d46;
-  color: #f7f7f7;
-  border-radius: 50%;
-  width:18px;
-  height: 18px;
-  font-size: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  .chat__timestamp--badge .chat__badge {
+    position: absolute;
+    top: 35px;
+    right: 0px;
+    background-color: #dc5d46;
+    color: #f7f7f7;
+    border-radius: 50%;
+    width:18px;
+    height: 18px;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .chats__chat:hover {
-    background-color: #999;
+    background-color: #11111111;
   }
  /*jamongjamongjamongjamongjamong*/
 
@@ -92,7 +92,7 @@
   
   .friend__content .friend__status,
   .friend .chat__timestamp {
-    font-size: 12px;
+    font-size: 11px;
   }
   
   .friend .friend__now-listening {
